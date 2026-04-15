@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+build/
+dist/
+coverage/
+
+# Logs & OS Files
+.DS_Store
+*.log
+
+# Environment
+.env*
+!.env.example
+
+# Exclude non-homepage items
+jungsan/
+.agents/
+metadata.json
