@@ -136,7 +136,12 @@ export function InquiryPage() {
 
   return (
     <>
-      <SEO title="고객문의" />
+      <SEO
+        title="고객문의"
+        description="윈드(Wind) 물류 서비스 문의 및 견적 상담을 신청하세요. 3PL/2PL 물류대행, 풀필먼트 서비스에 대해 담당자가 24시간 이내에 답변드립니다."
+        keywords="물류 상담, 물류 견적, 3PL 문의, 풀필먼트 문의, 물류대행 문의, 윈드 문의, 택배출고 상담"
+        ogUrl="https://windl.co.kr/inquiry"
+      />
       
       {/* Hero */}
       <div className="relative h-[40vh] min-h-[300px] bg-gray-900 overflow-hidden">

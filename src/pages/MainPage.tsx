@@ -219,7 +219,10 @@ export function MainPage() {
 
   return (
     <>
-      <SEO />
+      <SEO
+        ogUrl="https://windl.co.kr"
+        keywords="3PL, 2PL, 물류대행, 풀필먼트, 택배출고, 보관, 입고, B2B출고, WMS, 경기도 김포 물류, 윈드, 주식회사 윈드, 물류기업, 물류센터, 쿠팡 물류, 올리브영 물류"
+      />
       <HeroSlider />
 
       {/* Philosophy Section */}

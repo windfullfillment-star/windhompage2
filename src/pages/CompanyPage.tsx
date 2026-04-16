@@ -34,7 +34,12 @@ const TIMELINE = [
 export function CompanyPage() {
   return (
     <>
-      <SEO title="회사소개" />
+      <SEO
+        title="회사소개"
+        description="주식회사 윈드(Wind)는 소수 고객사 집중 운영을 철학으로 하는 3PL/2PL 전문 물류 기업입니다. 경기도 김포에 위치하며 2021년 설립 이후 고객사와 함께 성장해왔습니다."
+        keywords="윈드 회사소개, 물류기업 소개, 3PL기업, 경기도 김포 물류, 주식회사 윈드, 윈드 연혁, 물류 전문기업"
+        ogUrl="https://windl.co.kr/company"
+      />
       
       {/* Hero */}
       <div className="bg-gray-50 py-32 px-6 border-b border-gray-100">

@@ -19,7 +19,12 @@ export function ServicePage() {
 
   return (
     <>
-      <SEO title="서비스소개" />
+      <SEO
+        title="서비스소개"
+        description="윈드(Wind)의 전문 물류 서비스를 소개합니다. 입고(Inbound), 보관(Storage), 택배출고, B2B출고(쿠팡·올리브영), WMS IT 시스템까지 전 물류 과정을 책임집니다."
+        keywords="3PL 서비스, 입고서비스, 보관서비스, 택배출고, B2B출고, 쿠팡 밀크런, 올리브영 출고, WMS, 물류IT, 풀필먼트 서비스, 당일출고"
+        ogUrl="https://windl.co.kr/service"
+      />
       
       {/* Hero - Lightened */}
       <div className="bg-gray-50 py-32 px-6 border-b border-gray-100">
