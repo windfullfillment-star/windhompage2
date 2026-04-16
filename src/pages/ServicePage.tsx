@@ -142,7 +142,7 @@ export function ServicePage() {
           </div>
           <div className="aspect-[4/3] bg-gray-100 overflow-hidden grayscale hover:grayscale-0 transition-all duration-700">
             <img
-              src="/wind_very_realistic_korean_team.png"
+              src="/windhompage2/wind_very_realistic_korean_team.png"
               alt="Parcel"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
@@ -156,7 +156,7 @@ export function ServicePage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div className="order-2 md:order-1 aspect-[4/3] bg-gray-100 overflow-hidden grayscale hover:grayscale-0 transition-all duration-700">
             <img
-              src="/B2B출고이미지.png"
+              src="/windhompage2/B2B출고이미지.png"
               alt="B2B"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"

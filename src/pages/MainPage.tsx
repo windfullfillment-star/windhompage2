@@ -9,9 +9,9 @@ import { cn } from '@/lib/utils';
 import { supabase } from '@/lib/supabase';
 
 const PHILOSOPHY_IMAGES = [
-  '/sotong1.png',
-  '/wind_delivery_boxes_mockup_1775520646200.png',
-  '/rapping.png',
+  '/windhompage2/sotong1.png',
+  '/windhompage2/wind_delivery_boxes_mockup_1775520646200.png',
+  '/windhompage2/rapping.png',
 ];
 
 const SERVICES = [
@@ -33,14 +33,14 @@ const SERVICES = [
     title: '택배출고 (Parcel)',
     desc: '당일 출고 원칙과 고객사 맞춤 패킹 서비스',
     icon: Send,
-    image: '/wind_very_realistic_korean_team.png',
+    image: '/windhompage2/wind_very_realistic_korean_team.png',
     id: 'parcel',
   },
   {
     title: 'B2B출고 (B2B)',
     desc: '다양한 엔드포인트 출고와 입고별 기준 충족',
     icon: ShoppingBag,
-    image: '/B2B출고이미지.png',
+    image: '/windhompage2/B2B출고이미지.png',
     id: 'b2b',
   },
   {
@@ -56,61 +56,61 @@ const CLIENTS = [
   {
     id: 1,
     name: 'PISCESS',
-    logo: '/piscess.png',
+    logo: '/windhompage2/piscess.png',
     link: 'https://www.musinsa.com/content/cms/10790'
   },
   {
     id: 2,
     name: 'CODEMENTS',
-    logo: '/codements.png',
+    logo: '/windhompage2/codements.png',
     link: 'https://m.codements.shop/'
   },
   {
     id: 3,
     name: 'MADGOAT',
-    logo: '/mago.png',
+    logo: '/windhompage2/mago.png',
     link: 'https://madgoat-official.com'
   },
   {
     id: 4,
     name: 'ISNTREE',
-    logo: '/isntree.png',
+    logo: '/windhompage2/isntree.png',
     link: 'https://isntree.com/'
   },
   {
     id: 5,
     name: 'CARENOLOGY',
-    logo: '/carenology.png',
+    logo: '/windhompage2/carenology.png',
     link: 'https://carenology95.com/'
   },
   {
     id: 6,
     name: 'KLAR',
-    logo: '/KLAR.png',
+    logo: '/windhompage2/KLAR.png',
     link: 'https://klarkorea.com/'
   },
   {
     id: 7,
     name: 'BLUESTONE',
-    logo: '/BLUESTONE.png',
+    logo: '/windhompage2/BLUESTONE.png',
     link: 'https://www.bxkorea.com/'
   },
   {
     id: 8,
     name: 'EPICUREAN',
-    logo: '/epicurean.png',
+    logo: '/windhompage2/epicurean.png',
     link: 'https://www.instagram.com/epicureankorea_official/'
   },
   {
     id: 9,
     name: 'NEOFLAM',
-    logo: '/neoflam.png',
+    logo: '/windhompage2/neoflam.png',
     link: null
   },
   {
     id: 10,
     name: 'SELINE',
-    logo: '/seline.png',
+    logo: '/windhompage2/seline.png',
     link: 'https://smartstore.naver.com/seline86'
   }
 ];

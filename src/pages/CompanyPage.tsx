@@ -71,7 +71,7 @@ export function CompanyPage() {
           </div>
           <div className="aspect-video bg-gray-100 overflow-hidden grayscale">
             <img
-              src="/wind_warehouse.png"
+              src="/windhompage2/wind_warehouse.png"
               alt="Wind Warehouse"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
